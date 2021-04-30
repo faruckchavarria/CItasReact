@@ -2,8 +2,10 @@ import React, { useState } from 'react';
 import { Text, View, Button, StyleSheet, TextInput, TouchableHighlight, Alert, ScrollView } from 'react-native';
 import DateTimePickerModal from "react-native-modal-datetime-picker";
 import shortid from 'shortid';
+import Cita from './Cita';
 
-const Formulario = ({ citas, setCitas, guardarMostrarForm }) => {
+const Formulario = ({ route }) => {
+    const { citas, setCitas } = route.params;
     const [fecha, guardarFecha] = useState('');
     const [paciente, guardarPaciente] = useState('');
     const [propietario, guardarPropietario] = useState('');
@@ -28,7 +30,7 @@ const Formulario = ({ citas, setCitas, guardarMostrarForm }) => {
     };
 
     const crearNuevaCita = () => {
-        if (paciente.trim() === '' ||
+        if (propietario.trim() === '' ||
             propietario.trim() === '' ||
             telefono.trim() === '' ||
             fecha.trim() === '' ||
@@ -42,16 +44,10 @@ const Formulario = ({ citas, setCitas, guardarMostrarForm }) => {
 
         cita.id = shortid.generate();
 
-        //console.log(cita);
-
         //agregar nueva cita al state
         const citasNuevo = [...citas, cita];
         setCitas(citasNuevo);
 
-        //guardarCitasStorage(JSON.stringify(citasNuevo));
-
-        //ocultar formulario
-        guardarMostrarForm(false);
 
     }
 
@@ -66,6 +62,7 @@ const Formulario = ({ citas, setCitas, guardarMostrarForm }) => {
     }
     return (
         <ScrollView>
+
             <View style={styles.formulario}>
                 <Text style={styles.label}>Paciente</Text>
                 <TextInput
@@ -116,10 +113,9 @@ const Formulario = ({ citas, setCitas, guardarMostrarForm }) => {
         </ScrollView>
     );
 }
-
 const styles = StyleSheet.create({
-    formulario: {
-        backgroundColor: '#fff',
+    formulario : {
+        backgroundColor: '#eeeeee',
         paddingHorizontal: 20,
         paddingVertical: 10
     },
@@ -128,7 +124,7 @@ const styles = StyleSheet.create({
         fontWeight: 'bold',
         color: '#212121'
     },
-    input: {
+    input : {
         marginTop: 10,
         height: 50,
         color: '#212121',
@@ -138,7 +134,7 @@ const styles = StyleSheet.create({
     },
     btneliminar: {
         padding: 10,
-        backgroundColor: '#FF5722',
+        backgroundColor: '#aad8d3',
         marginVertical: 10
     },
     textoeliminar: {
@@ -147,5 +143,5 @@ const styles = StyleSheet.create({
         fontWeight: 'bold'
     }
 });
-
+ 
 export default Formulario;

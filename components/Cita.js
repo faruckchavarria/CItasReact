@@ -49,7 +49,7 @@ const styles = StyleSheet.create({
     },
     btneliminar: {
         padding: 10,
-        backgroundColor: '#FF5722',
+        backgroundColor: '#393e46',
         marginVertical: 10
     },
     textoeliminar: {

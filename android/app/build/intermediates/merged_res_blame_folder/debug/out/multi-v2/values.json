@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "/home/msi/Documentos/desarrollo movil 2/navegacion/android/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values/values.xml",
+            "outputFile": "/home/msi/Documentos/desarrollo movil 2/CItasReact/android/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values/values.xml",
             "map": [
                 {
                     "source": "/home/msi/.gradle/caches/transforms-2/files-2.1/baebfc24ee3e9d675a4614c1f27f118a/jetified-appcompat-resources-1.1.0/res/values/values.xml",
@@ -78,7 +78,24 @@
                     }
                 },
                 {
-                    "source": "/home/msi/Documentos/desarrollo movil 2/navegacion/android/app/build/generated/res/resValues/debug/values/gradleResValues.xml",
+                    "source": "/home/msi/Documentos/desarrollo movil 2/CItasReact/android/app/src/main/res/values/strings.xml",
+                    "from": {
+                        "startLines": "1",
+                        "startColumns": "4",
+                        "startOffsets": "16",
+                        "endColumns": "47",
+                        "endOffsets": "59"
+                    },
+                    "to": {
+                        "startLines": "671",
+                        "startColumns": "4",
+                        "startOffsets": "43007",
+                        "endColumns": "47",
+                        "endOffsets": "43050"
+                    }
+                },
+                {
+                    "source": "/home/msi/Documentos/desarrollo movil 2/CItasReact/android/app/build/generated/res/resValues/debug/values/gradleResValues.xml",
                     "from": {
                         "startLines": "6,8",
                         "startColumns": "4,4",
@@ -188,39 +205,22 @@
                     }
                 },
                 {
-                    "source": "/home/msi/Documentos/desarrollo movil 2/navegacion/android/app/src/main/res/values/styles.xml",
+                    "source": "/home/msi/Documentos/desarrollo movil 2/CItasReact/node_modules/@react-native-community/datetimepicker/android/build/intermediates/packaged_res/debug/values/values.xml",
                     "from": {
-                        "startLines": "3",
-                        "startColumns": "4",
-                        "startOffsets": "54",
-                        "endLines": "6",
-                        "endColumns": "12",
-                        "endOffsets": "234"
+                        "startLines": "2,5",
+                        "startColumns": "4,4",
+                        "startOffsets": "100,301",
+                        "endLines": "4,7",
+                        "endColumns": "12,12",
+                        "endOffsets": "296,485"
                     },
                     "to": {
-                        "startLines": "801",
-                        "startColumns": "4",
-                        "startOffsets": "58478",
-                        "endLines": "804",
-                        "endColumns": "12",
-                        "endOffsets": "58658"
-                    }
-                },
-                {
-                    "source": "/home/msi/Documentos/desarrollo movil 2/navegacion/android/app/src/main/res/values/strings.xml",
-                    "from": {
-                        "startLines": "1",
-                        "startColumns": "4",
-                        "startOffsets": "16",
-                        "endColumns": "47",
-                        "endOffsets": "59"
-                    },
-                    "to": {
-                        "startLines": "671",
-                        "startColumns": "4",
-                        "startOffsets": "43007",
-                        "endColumns": "47",
-                        "endOffsets": "43050"
+                        "startLines": "2990,2993",
+                        "startColumns": "4,4",
+                        "startOffsets": "201478,201679",
+                        "endLines": "2992,2995",
+                        "endColumns": "12,12",
+                        "endOffsets": "201674,201863"
                     }
                 },
                 {
@@ -281,22 +281,22 @@
                     }
                 },
                 {
-                    "source": "/home/msi/Documentos/desarrollo movil 2/navegacion/node_modules/@react-native-community/datetimepicker/android/build/intermediates/packaged_res/debug/values/values.xml",
+                    "source": "/home/msi/Documentos/desarrollo movil 2/CItasReact/android/app/src/main/res/values/styles.xml",
                     "from": {
-                        "startLines": "2,5",
-                        "startColumns": "4,4",
-                        "startOffsets": "100,301",
-                        "endLines": "4,7",
-                        "endColumns": "12,12",
-                        "endOffsets": "296,485"
+                        "startLines": "3",
+                        "startColumns": "4",
+                        "startOffsets": "54",
+                        "endLines": "6",
+                        "endColumns": "12",
+                        "endOffsets": "234"
                     },
                     "to": {
-                        "startLines": "2990,2993",
-                        "startColumns": "4,4",
-                        "startOffsets": "201478,201679",
-                        "endLines": "2992,2995",
-                        "endColumns": "12,12",
-                        "endOffsets": "201674,201863"
+                        "startLines": "801",
+                        "startColumns": "4",
+                        "startOffsets": "58478",
+                        "endLines": "804",
+                        "endColumns": "12",
+                        "endOffsets": "58658"
                     }
                 },
                 {

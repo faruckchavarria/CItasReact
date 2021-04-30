@@ -10,7 +10,6 @@ import { NavigationContainer } from '@react-navigation/native';
 import { createStackNavigator } from '@react-navigation/stack';
 
 import Inicio from './components/Inicio';
-import Servicios from './components/Servicio';
 import Formulario from './components/Formulario';
 
 

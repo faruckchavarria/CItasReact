@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "/home/msi/Documentos/desarrollo movil 2/navegacion/android/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-small-v4/values-small-v4.xml",
+            "outputFile": "/home/msi/Documentos/desarrollo movil 2/CItasReact/android/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-small-v4/values-small-v4.xml",
             "map": [
                 {
                     "source": "/home/msi/.gradle/caches/transforms-2/files-2.1/747f53e70e3372703b3570ac3dfbfb03/material-1.1.0/res/values-small-v4/values-small-v4.xml",
